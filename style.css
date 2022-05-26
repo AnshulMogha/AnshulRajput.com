@@ -1,0 +1,185 @@
+html
+{
+    font-size: .5vw;
+}
+*
+{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3.5rem;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+hr{
+    height: 3px;
+}
+#Menu
+{
+    display: none;
+}
+#Phone-navbar
+{
+   display: none;
+}
+#navbar
+{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(90, 90, 90, 0.7);
+    width: 100%;
+    padding:1rem;
+    box-sizing: border-box;
+    position:fixed;
+    z-index: 1;
+}
+#logo
+{
+    color: white;
+    margin: 0px 2rem;
+}
+#logo>span
+{
+    color: red;
+    font-size: larger;
+}
+
+#navbar>ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;
+}
+.iteams
+{
+    margin-right:8rem; 
+}
+
+.iteams>a
+{
+    padding:.5rem 3rem;
+    text-decoration: none;
+    color: white;
+    transition:all .8s;
+}
+.iteams>a:hover
+{
+    background-color: black;
+    color: rgba(169, 50, 255, 1);
+}
+#Home
+{
+    background-image: url(img/Background.jpg);    
+    height: 65vw;
+    width: 100%;
+    position:relative;
+    
+}
+#mainHeading
+{
+    color: rgba(169, 50, 255, 1);
+    font-size: 15rem;
+    text-align: inherit;
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+    width:165rem;
+    
+}
+.introBox
+{
+    width: 60rem;
+    background: #a27bbf;
+    border-radius: 10%;
+    padding: 5rem;
+    position: absolute;
+    right: 35rem;
+    box-shadow: rgb(169 50 255 / 50%) 2rem 2rem 8rem, rgb(169 50 255 / 50%) -2rem -2rem 8rem;
+}
+.introBox>p
+{
+    color: white;
+    font-size: 4rem;
+}
+#About-Me
+{
+    background-color:#2e2e2e;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#About-me-heading
+{
+    font-size: 8rem;
+    background-color:#a27bbf;
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow:rgba(169, 50, 255, 1) .5rem .5rem 2.5rem,rgba(169, 50, 255, 1) -.5rem -.5rem 2.5rem;   
+}
+#About-Me>p
+{
+    color:white ;
+    background-color: rgba(169, 50, 255, 1);
+    width: 90%;
+    padding: 3rem;
+    border-radius: 20px;
+    font-size: 5rem;
+}
+#Contact-Info
+{
+    background-color: #2e2e2e;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Contact-Info-Heading
+{
+    font-size: 8rem;
+    color: white;
+}
+#Contact-Info-Details
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.details
+{
+    padding: 2rem;
+    color: white;
+    font-size: 7rem;
+}
+#linked-in-logo>a>img
+{
+    height: 12rem;
+    border-radius: 30px;
+    margin: 4rem;
+    transition:box-shadow 1s;
+    box-shadow:rgb(169, 50,255) .5rem .5rem 2.5rem,rgb(169, 50, 255) -.5rem -.5rem 2.5rem;    ;
+}
+#linked-in-logo>a>img:hover
+{
+    box-shadow:rgb(255, 255, 255) .5rem .5rem 2.5rem,rgb(255, 255, 255) -.5rem -.5rem 2.5rem;
+}
+#linked-in-logo>a>img:active
+{
+    box-shadow:rgb(169, 50, 255) .5rem .5rem 2.5rem,rgb(169, 50, 255) -.5rem -.5rem 2.5rem;
+}
+#footer
+{
+    background-color: black;
+    color: white;
+}
+/*Resume page*/
+embed
+{
+    height: 100vh;
+    width: 100vw;
+}

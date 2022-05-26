@@ -1,0 +1,99 @@
+#navbar
+{
+    z-index: 2;
+}
+#logo
+    {
+        font-size: 9rem;
+    }
+    #Menu
+    {
+        display: block;
+    }
+    #Menu-btn
+    {
+        font-size: 8rem;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem;
+        
+    }
+    .iteams
+    {
+        display: none;
+    }
+    #Phone-navbar
+    {
+        padding-top: 25rem;
+        background-color: #2e2e2e;
+        position:fixed;
+        z-index: 1;
+        width:100%;
+    }
+    #Phone-navbar>ul
+    {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+    }
+    .ph-bar-iteams
+    {
+        color: white;
+        font-size: 8rem;
+        margin: 2rem;
+    }
+    /*Hone section-1*/
+    #Home
+    {   
+        height: 100vw;
+    }
+    #mainHeading
+    {   
+        text-align:center;    
+    }
+    .introBox
+    {
+        width: 150rem;
+        border-radius: 20px;
+        right: 20rem;
+        top: 70rem;
+    }
+    .introBox>p
+    {
+        font-size: 8rem;
+    }
+/*About Me section*/    
+ #About-Me
+{
+    height: 400px;
+}
+#About-me-heading
+{
+    font-size: 15rem; 
+}
+#About-Me>p
+{
+    font-size: 8rem;
+}
+#Contact-Info
+{
+    height: 200rem;
+}
+#Contact-Info-Heading
+{
+    font-size: 15rem;
+    color: white;
+}
+.details
+{
+    font-size: 10rem;
+}
+#linked-in-logo>a>img
+{
+    height: 30rem;  
+}
+#footer
+{
+    font-size: 7rem;
+}
